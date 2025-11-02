@@ -7,7 +7,8 @@ namespace ShiftLogger.Models
     {
         private readonly IConfiguration _configuration;
 
-        public ShiftLoggerDbContext()
+        public ShiftLoggerDbContext(DbContextOptions<ShiftLoggerDbContext> options)
+         : base(options)
         {
             _configuration = new ConfigurationBuilder()
                 .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)

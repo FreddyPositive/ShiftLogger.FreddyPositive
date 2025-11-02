@@ -7,12 +7,12 @@ public class ShiftLoggerDto
         public string Name { get; set; }
         public DateTime CreatedDate { get; set; }
     }
-    public class ShiftDetailsDto
+    public class ShiftInDto
     {
         public int EmployeeId { get; set; }
-        public DateTime ShiftStart { get; set; }
-        public DateTime ShiftEnd { get; set; }
-        public decimal TotalWorkingHours { get; set; }
-        public DateTime CreatedDate { get; set; }
+    }
+    public class ShiftOutDto
+    {
+        public int EmployeeId { get; set; }
     }
 }

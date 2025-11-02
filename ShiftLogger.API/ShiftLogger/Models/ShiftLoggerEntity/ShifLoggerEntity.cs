@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ShiftLogger.Models.ShiftLoggerEntity;
 
@@ -19,6 +20,7 @@ public class ShifLoggerEntity
         public int EmployeeId { get; set; }
         public DateTime ShiftStart { get; set; }
         public DateTime ShiftEnd { get; set; }
+        [Column(TypeName = "decimal(10,2)")]
         public decimal TotalWorkingHours { get; set; }
         public int ShiftStatus { get; set; }
         public DateTime CreatedDate { get; set; }

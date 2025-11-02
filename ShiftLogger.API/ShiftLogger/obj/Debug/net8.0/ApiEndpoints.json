@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ShiftLogger.Controllers.ShiftLoggerController",
+    "Method": "ShiftIn",
+    "RelativePath": "api/ShiftLogger/shift-in",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shiftInDto",
+        "Type": "ShiftLogger.Models.ShiftLoggerDto.ShiftLoggerDto\u002BShiftInDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShiftLogger.Controllers.ShiftLoggerController",
+    "Method": "ShiftOut",
+    "RelativePath": "api/ShiftLogger/shift-out",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shiftOutDto",
+        "Type": "ShiftLogger.Models.ShiftLoggerDto.ShiftLoggerDto\u002BShiftOutDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
