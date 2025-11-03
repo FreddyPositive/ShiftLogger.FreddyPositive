@@ -1,13 +1,12 @@
-﻿using static ShiftLogger.Models.ShiftLoggerEntity.ShifLoggerEntity;
+﻿using Microsoft.EntityFrameworkCore;
 using ShiftLogger.Models;
-using ShiftLogger.Models.ShiftLoggerDto;
-using Microsoft.EntityFrameworkCore;
+using static ShiftLogger.Models.ShiftLoggerEntity.ShifLoggerEntity;
 
 namespace ShiftLogger.DataAccess;
 
 public interface IShiftLoggerDataAccess
 {
-    DateTime GetActiveShiftInTime(int employeeId);
+    DateTime? GetActiveShiftInTime(int employeeId);
     Task ShiftIn(ShiftDetails shiftDetails);
     Task ShiftOut(ShiftDetails shiftDetails);
 }
@@ -26,7 +25,7 @@ public class ShiftLoggerDataAcess : IShiftLoggerDataAccess
         try
         {
             _shiftLoggerDbContext.Add(shiftDetails);
-             await _shiftLoggerDbContext.SaveChangesAsync();
+            await _shiftLoggerDbContext.SaveChangesAsync();
         }
         catch (DbUpdateException ex)
         {
@@ -36,22 +35,35 @@ public class ShiftLoggerDataAcess : IShiftLoggerDataAccess
 
     public async Task ShiftOut(ShiftDetails shiftDetails)
     {
+        try
+        {
+            var shiftOutDetails = await _shiftLoggerDbContext.ShiftDetails.FirstOrDefaultAsync(e => e.EmployeeId == shiftDetails.EmployeeId && e.ShiftStatus == 1);
 
-        var shiftOutDetails = await _shiftLoggerDbContext.ShiftDetails.FirstOrDefaultAsync(e => e.EmployeeId == shiftDetails.EmployeeId && e.ShiftStatus ==1);
-        
-        shiftOutDetails.ShiftEnd = shiftDetails.ShiftEnd;
-        shiftOutDetails.TotalWorkingHours = shiftDetails.TotalWorkingHours;
-        shiftOutDetails.ShiftStatus = 0;
+            shiftOutDetails.ShiftEnd = shiftDetails.ShiftEnd;
+            shiftOutDetails.TotalWorkingHours = shiftDetails.TotalWorkingHours;
+            shiftOutDetails.ShiftStatus = 0;
 
-        await _shiftLoggerDbContext.SaveChangesAsync();
+            await _shiftLoggerDbContext.SaveChangesAsync();
+        }
+        catch (DbUpdateException ex)
+        {
+            Console.WriteLine($"Database error: {ex.Message}");
+        }
     }
-    public DateTime GetActiveShiftInTime(int employeeId)
+    public DateTime? GetActiveShiftInTime(int employeeId)
     {
-        var shiftInTime = _shiftLoggerDbContext.ShiftDetails.
-                            Where(s => s.EmployeeId == employeeId 
-                            && s.ShiftStatus == 1).Select(s => s.ShiftStart)
+        try
+        {
+            DateTime? shiftInTime = _shiftLoggerDbContext.ShiftDetails.
+                            Where(s => s.EmployeeId == employeeId
+                            && s.ShiftStatus == 1).Select(s =>(DateTime?)s.ShiftStart)
                             .FirstOrDefault();
-        return shiftInTime;
+            return shiftInTime;
+        }
+        catch (DbUpdateException ex)
+        {
+            Console.WriteLine($"Database error: {ex.Message}");
+            return null;
+        }
     }
-
 }

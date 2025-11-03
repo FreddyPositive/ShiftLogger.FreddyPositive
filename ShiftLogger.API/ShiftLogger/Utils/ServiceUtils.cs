@@ -10,11 +10,17 @@ public class ServiceUtils
     {
         _shiftLoggerDataAccess = shiftLoggerDataAccess;
     }
+
     public decimal GetTotalWorkingHours(int employeeId, DateTime shiftEnd)
     {
-        DateTime shiftInTime = _shiftLoggerDataAccess.GetActiveShiftInTime(employeeId);
+        DateTime? shiftInTime = _shiftLoggerDataAccess.GetActiveShiftInTime(employeeId);
 
-        TimeSpan timeDifference = shiftEnd - shiftInTime;
+        if(shiftInTime == null)
+        {
+            throw new InvalidOperationException("No active shift-in record found for this employee.");
+        }
+
+        TimeSpan timeDifference = shiftEnd - shiftInTime.Value;
 
         Decimal totalWorkingHours = (decimal)timeDifference.TotalHours;
 

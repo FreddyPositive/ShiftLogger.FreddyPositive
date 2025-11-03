@@ -25,8 +25,17 @@ public class ShiftLoggerService : IShiftLoggerService
 
     public async Task ShiftIn(ShiftInDto shiftInDto)
     {
-        var shiftIn = new ShiftDetails { EmployeeId = shiftInDto.EmployeeId, ShiftStart = DateTime.Now, ShiftStatus = 1 };
-        await _shiftLoggerDataAccess.ShiftIn(shiftIn);
+        try
+        {
+            var shiftIn = new ShiftDetails { EmployeeId = shiftInDto.EmployeeId, ShiftStart = DateTime.Now, ShiftStatus = 1 };
+           
+            await _shiftLoggerDataAccess.ShiftIn(shiftIn);
+        }
+        catch (Exception ex)
+        {
+            throw new ApplicationException("Error during shift in operation.", ex);
+        }
+
     }
 
     public async Task ShiftOut(ShiftOutDto shiftOutDto)
@@ -34,12 +43,8 @@ public class ShiftLoggerService : IShiftLoggerService
         try
         {
             var shiftOut = new ShiftDetails { EmployeeId = shiftOutDto.EmployeeId, ShiftEnd = DateTime.Now, TotalWorkingHours = _serviceUtils.GetTotalWorkingHours(shiftOutDto.EmployeeId, DateTime.Now), ShiftStatus = 0 };
-            if(shiftOut.ShiftStart == null)
-            {
-                throw new InvalidOperationException("No active shift found for this employee.");
-            }
+          
             await _shiftLoggerDataAccess.ShiftOut(shiftOut);
-
         }
         catch(Exception ex)
         {

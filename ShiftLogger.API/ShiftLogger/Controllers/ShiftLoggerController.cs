@@ -37,13 +37,13 @@ public class ShiftLoggerController : ControllerBase
             await _shiftLoggerService.ShiftOut(shiftOutDto);
             return Ok("Shift ended successfully.");
         }
-        catch(InvalidOperationException ex)
+        catch (InvalidOperationException ex)
         {
             return BadRequest(ex.Message);
         }
         catch (Exception ex)
         {
-            return StatusCode(500, new { message = "Error During Shift out operation    .", details = ex.Message });
+            return StatusCode(500, new { message = "Error During Shift out operation.", details = ex.Message });
         }
     }
 }
