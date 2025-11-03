@@ -22,7 +22,6 @@ public class ShiftLoggerService : IShiftLoggerService
         _serviceUtils = serviceUtils;
     }
 
-
     public async Task ShiftIn(ShiftInDto shiftInDto)
     {
         try
@@ -35,7 +34,6 @@ public class ShiftLoggerService : IShiftLoggerService
         {
             throw new ApplicationException("Error during shift in operation.", ex);
         }
-
     }
 
     public async Task ShiftOut(ShiftOutDto shiftOutDto)
@@ -51,5 +49,4 @@ public class ShiftLoggerService : IShiftLoggerService
             throw new ApplicationException("Error during shift out operation.", ex);
         }
     }
-
 }
