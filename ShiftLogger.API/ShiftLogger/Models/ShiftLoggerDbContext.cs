@@ -7,13 +7,12 @@ namespace ShiftLogger.Models
     {
         private readonly IConfiguration _configuration;
 
-        public ShiftLoggerDbContext(DbContextOptions<ShiftLoggerDbContext> options)
-         : base(options)
+        public ShiftLoggerDbContext(DbContextOptions<ShiftLoggerDbContext> options) : base(options)
         {
             _configuration = new ConfigurationBuilder()
-                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                .Build();
+                            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                            .Build();
         }
 
         public DbSet<ShiftDetails> ShiftDetails { get; set; }
@@ -26,7 +25,6 @@ namespace ShiftLogger.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<ShiftDetails>()
@@ -60,7 +58,6 @@ namespace ShiftLogger.Models
                  new EmployeeList { Id = 10, Name = "Arun", CreatedDate = DateTime.Parse("2025-09-25 21:55:05.440") },
                  new EmployeeList { Id = 11, Name = "Lakshmi", CreatedDate = DateTime.Parse("2025-09-26 22:10:30.210") }
              );
-
         }
     }
 }

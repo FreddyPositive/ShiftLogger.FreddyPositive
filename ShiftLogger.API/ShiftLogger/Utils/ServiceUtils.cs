@@ -15,15 +15,13 @@ public class ServiceUtils
     {
         DateTime? shiftInTime = _shiftLoggerDataAccess.GetActiveShiftInTime(employeeId);
 
-        if(shiftInTime == null)
+        if (shiftInTime == null)
         {
             throw new InvalidOperationException("No active shift-in record found for this employee.");
         }
 
         TimeSpan timeDifference = shiftEnd - shiftInTime.Value;
-
         Decimal totalWorkingHours = (decimal)timeDifference.TotalHours;
-
         return totalWorkingHours;
     }
 }

@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "ShiftLogger.Controllers.ShiftLoggerController",
+    "Method": "CheckShiftStatus",
+    "RelativePath": "api/ShiftLogger/checkshiftstatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShiftLogger.Controllers.ShiftLoggerController",
+    "Method": "EmployeeList",
+    "RelativePath": "api/ShiftLogger/employeelist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShiftLogger.Controllers.ShiftLoggerController",
     "Method": "ShiftIn",
     "RelativePath": "api/ShiftLogger/shift-in",
     "HttpMethod": "POST",
@@ -29,6 +55,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShiftLogger.Controllers.ShiftLoggerController",
+    "Method": "ShiftLog",
+    "RelativePath": "api/ShiftLogger/shiftlog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

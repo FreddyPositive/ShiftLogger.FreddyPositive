@@ -66,6 +66,52 @@
           }
         }
       }
+    },
+    "/api/ShiftLogger/employeelist": {
+      "get": {
+        "tags": [
+          "ShiftLogger"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ShiftLogger/shiftlog": {
+      "get": {
+        "tags": [
+          "ShiftLogger"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ShiftLogger/checkshiftstatus": {
+      "get": {
+        "tags": [
+          "ShiftLogger"
+        ],
+        "parameters": [
+          {
+            "name": "employeeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

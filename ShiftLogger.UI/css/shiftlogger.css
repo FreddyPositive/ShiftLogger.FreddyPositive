@@ -22,7 +22,7 @@
      font-weight: 600;
 }
 
-.sl-shiftlog_table {
+.sl-shiftlog-table {
     margin-left: 19%;
     margin-top: 5%;
 }
@@ -53,7 +53,7 @@
     font-family: 'Courier New', monospace;
 }
 
-.sl-shiftlog_table {
+.sl-shiftlog-table {
     font-size: 20px;
     font-weight: 600;
 }
@@ -61,4 +61,18 @@
 .sl-table-heading {
     font-size: 34px;
       font-family: 'Courier New', monospace;
+}
+
+.sl-shift-marker{
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+    gap: 30px;
+}
+#EmployeeListDdl button {
+  width: 150px;           
+  text-align: left;         
+  white-space: nowrap;      
+  overflow: hidden;         
+  text-overflow: ellipsis;   
 }
