@@ -94,8 +94,7 @@
               "RelativeToolTip": "ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T10:10:48.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T10:10:48.971Z"
             },
             {
               "$type": "Document",
@@ -107,8 +106,7 @@
               "RelativeToolTip": "ShiftLogger\\Controllers\\ShiftLoggerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:52:42.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T12:52:42.766Z"
             },
             {
               "$type": "Document",
@@ -118,7 +116,7 @@
               "RelativeDocumentMoniker": "ShiftLogger\\Service\\ShiftLoggerService.cs",
               "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Service\\ShiftLoggerService.cs",
               "RelativeToolTip": "ShiftLogger\\Service\\ShiftLoggerService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAMwF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAMwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T12:56:36.875Z",
               "EditorCaption": ""
@@ -133,8 +131,7 @@
               "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwBgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T01:03:31.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T01:03:31.625Z"
             },
             {
               "$type": "Document",
@@ -146,8 +143,7 @@
               "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA9wBEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:58:43.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T12:58:43.691Z"
             },
             {
               "$type": "Document",
@@ -159,8 +155,7 @@
               "RelativeToolTip": "ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAgwGQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T01:08:57.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T01:08:57.25Z"
             },
             {
               "$type": "Document",
@@ -172,8 +167,7 @@
               "RelativeToolTip": "ShiftLogger\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-27T00:45:05.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T00:45:05.721Z"
             },
             {
               "$type": "Document",
@@ -185,8 +179,7 @@
               "RelativeToolTip": "ShiftLogger\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:48:03.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T12:48:03.365Z"
             },
             {
               "$type": "Document",
@@ -198,8 +191,7 @@
               "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T00:55:11.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T00:55:11.948Z"
             },
             {
               "$type": "Document",
@@ -211,8 +203,7 @@
               "RelativeToolTip": "ShiftLogger\\Utils\\ServiceUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T01:53:29.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T01:53:29.296Z"
             },
             {
               "$type": "Document",
