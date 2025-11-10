@@ -9,8 +9,7 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-  </script>
-
+    </script>
   <!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <!-- SweetAlert2 CDN -->
@@ -33,14 +32,14 @@
       </div>
       <div class="sl-shift-marker">
         <div class="dropdown" id="EmployeeListDdl">
-          <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1"
+          <button class="btn btn-success dropdown-toggle" type="button" id="employeeDropDownButton"
             data-bs-toggle="dropdown" aria-expanded="false">
             Choose a Employee
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <ul class="dropdown-menu" aria-labelledby="employeeDropDownButton">
+            <!-- Dynamic Employee List -->
           </ul>
         </div>
-
         <button class="btn btn-success button" id="sl-shift-in">
           <div class="button-outer">
             <div class="button-inner">
@@ -48,17 +47,14 @@
             </div>
           </div>
         </button>
-
-        <button class="btn btn-success button" id="sl-shift-out" disabled>   <div class="button-outer">
+        <button class="btn btn-success button" id="sl-shift-out" disabled>
+          <div class="button-outer">
             <div class="button-inner">
               <span>Shift Out</span>
             </div>
           </div>
         </button></button>
-
       </div>
-
-
       <div class="sl-shiftlog-table">
         <p class="sl-table-heading">Shift Log</p>
         <table class="table table-sm" style="width: 78%">
@@ -71,10 +67,10 @@
             </tr>
           </thead>
           <tbody>
+            <!-- Dynamic Shift Log -->
           </tbody>
       </div>
     </div>
   </div>
 </body>
-
 </html>

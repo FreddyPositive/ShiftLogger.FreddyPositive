@@ -1,5 +1,3 @@
-// API/apiService.js
-
 export class ApiService {
   constructor(baseUrl) {
     this.baseUrl = baseUrl;
@@ -8,24 +6,21 @@ export class ApiService {
   async request(endpoint, options = {}) {
     try {
       const response = await fetch(`${this.baseUrl}${endpoint}`, options);
-      const text = await response.text(); // handle both JSON and text cases
+      const text = await response.text();
       const contentType = response.headers.get("content-type");
       const result = contentType?.includes("application/json")
         ? JSON.parse(text)
         : text;
 
       if (!response.ok) {
-        // server returned 400–500 range
         throw {
           status: response.status,
           message: result.message || "Server error occurred.",
           details: result.details || result,
         };
       }
-
       return { status: response.status, data: result };
     } catch (error) {
-      // network or server-level issues
       throw {
         status: error.status || 0,
         message: error.message || "Network error",

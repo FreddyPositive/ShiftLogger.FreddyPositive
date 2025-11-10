@@ -39,6 +39,7 @@ export class ShiftLoggerHelper {
         if (minutes === 0) return `${hours} hr`;
         return `${hours} hr ${minutes} min`;
     }
+    
     ValidEmployeeId(employeeId) {
         if (employeeId == 0 || employeeId == "" || employeeId == null || employeeId == undefined) {
             Swal.fire({

@@ -1,69 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\",
+  "WorkspaceRootPath": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\service\\shiftloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\service\\shiftloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\dataaccess\\shiftloggerdataacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\dataaccess\\shiftloggerdataacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\controllers\\shiftloggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\controllers\\shiftloggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\models\\shiftloggerentity\\shifloggerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\models\\shiftloggerentity\\shifloggerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\migrations\\shiftloggerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\migrations\\shiftloggerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\models\\shiftloggerdto\\shiftloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\models\\shiftloggerdto\\shiftloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\models\\shiftloggerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\models\\shiftloggerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\utils\\serviceutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\utils\\serviceutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\utils\\serviceutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030013915_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShiftLogger\\Migrations\\20251030013915_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\dataaccess\\shiftloggerdataacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\dataaccess\\shiftloggerdataacess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012512_updated-structure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShiftLogger\\Migrations\\20251030012512_updated-structure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\service\\shiftloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\service\\shiftloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012357_updated-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShiftLogger\\Migrations\\20251030012357_updated-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\controllers\\shiftloggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\controllers\\shiftloggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\shiftlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\models\\shiftloggerentity\\shifloggerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\models\\shiftloggerentity\\shifloggerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\migrations\\shiftloggerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\migrations\\shiftloggerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\models\\shiftloggerdto\\shiftloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\models\\shiftloggerdto\\shiftloggerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\models\\shiftloggerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\models\\shiftloggerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030013915_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012512_updated-structure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012357_updated-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\shiftlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\shiftlogger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\migrations\\20251030014241_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\migrations\\20251030014241_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\migrations\\20251030014241_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|d:\\projects\\web api apps\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\migrations\\20251103131523_initialschooldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|c:\\ferdi\\projects\\personal\\shiftlogger.freddypositive\\shiftlogger.api\\shiftlogger\\migrations\\20251103131523_initialschooldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD07E523-3BA1-4176-82E6-0F2A7F0A19E1}|ShiftLogger\\ShiftLogger.csproj|solutionrelative:shiftlogger\\migrations\\20251103131523_initialschooldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -74,101 +71,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShiftLoggerDataAcess.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
-              "RelativeToolTip": "ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T10:10:48.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShiftLoggerController.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Controllers\\ShiftLoggerController.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Controllers\\ShiftLoggerController.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Controllers\\ShiftLoggerController.cs",
-              "RelativeToolTip": "ShiftLogger\\Controllers\\ShiftLoggerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:52:42.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShiftLoggerService.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Service\\ShiftLoggerService.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Service\\ShiftLoggerService.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Service\\ShiftLoggerService.cs",
-              "RelativeToolTip": "ShiftLogger\\Service\\ShiftLoggerService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAMwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:56:36.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShifLoggerEntity.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
-              "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T01:03:31.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ShiftLoggerDto.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
               "RelativeDocumentMoniker": "ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
               "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerDto\\ShiftLoggerDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA9wBEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:58:43.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T12:58:43.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ShiftLoggerDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
-              "RelativeToolTip": "ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T01:08:57.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\appsettings.json",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\appsettings.json",
               "RelativeDocumentMoniker": "ShiftLogger\\appsettings.json",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\appsettings.json",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\appsettings.json",
               "RelativeToolTip": "ShiftLogger\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -177,50 +100,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Program.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Program.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Program.cs",
-              "RelativeToolTip": "ShiftLogger\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ShiftLoggerDataAcess.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
+              "RelativeToolTip": "ShiftLogger\\DataAccess\\ShiftLoggerDataAcess.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAYwA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T12:48:03.365Z",
+              "WhenOpened": "2025-11-09T10:10:48.971Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShiftLoggerDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ShiftLogger\\Migrations\\ShiftLoggerDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T01:08:57.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ShiftLoggerDbContext.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
-              "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Program.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\Program.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Program.cs",
+              "RelativeToolTip": "ShiftLogger\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T00:55:11.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T12:48:03.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "ServiceUtils.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Utils\\ServiceUtils.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Utils\\ServiceUtils.cs",
               "RelativeDocumentMoniker": "ShiftLogger\\Utils\\ServiceUtils.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Utils\\ServiceUtils.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Utils\\ServiceUtils.cs",
               "RelativeToolTip": "ShiftLogger\\Utils\\ServiceUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T01:53:29.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShiftLoggerService.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Service\\ShiftLoggerService.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\Service\\ShiftLoggerService.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Service\\ShiftLoggerService.cs",
+              "RelativeToolTip": "ShiftLogger\\Service\\ShiftLoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:56:36.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShiftLoggerController.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Controllers\\ShiftLoggerController.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\Controllers\\ShiftLoggerController.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Controllers\\ShiftLoggerController.cs",
+              "RelativeToolTip": "ShiftLogger\\Controllers\\ShiftLoggerController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:52:42.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShifLoggerEntity.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
+              "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerEntity\\ShifLoggerEntity.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T01:03:31.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShiftLoggerDbContext.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
+              "RelativeDocumentMoniker": "ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
+              "RelativeToolTip": "ShiftLogger\\Models\\ShiftLoggerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:55:11.948Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
               "Title": "20251103131523_InitialSchoolDB.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251103131523_InitialSchoolDB.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251103131523_InitialSchoolDB.cs",
               "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\20251103131523_InitialSchoolDB.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251103131523_InitialSchoolDB.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251103131523_InitialSchoolDB.cs",
               "RelativeToolTip": "ShiftLogger\\Migrations\\20251103131523_InitialSchoolDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,9 +215,7 @@
               "DocumentIndex": 10,
               "Title": "20251030013915_update-database.cs",
               "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030013915_update-database.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\20251030013915_update-database.cs",
               "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030013915_update-database.cs",
-              "RelativeToolTip": "ShiftLogger\\Migrations\\20251030013915_update-database.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T01:39:16.065Z"
@@ -242,9 +224,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "20251030014241_update-database.cs",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030014241_update-database.cs",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030014241_update-database.cs",
               "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\20251030014241_update-database.cs",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030014241_update-database.cs",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030014241_update-database.cs",
               "RelativeToolTip": "ShiftLogger\\Migrations\\20251030014241_update-database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,9 +237,7 @@
               "DocumentIndex": 11,
               "Title": "20251030012512_updated-structure.cs",
               "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012512_updated-structure.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\20251030012512_updated-structure.cs",
               "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012512_updated-structure.cs",
-              "RelativeToolTip": "ShiftLogger\\Migrations\\20251030012512_updated-structure.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T01:25:12.207Z"
@@ -267,9 +247,7 @@
               "DocumentIndex": 12,
               "Title": "20251030012357_updated-database.cs",
               "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012357_updated-database.cs",
-              "RelativeDocumentMoniker": "ShiftLogger\\Migrations\\20251030012357_updated-database.cs",
               "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\Migrations\\20251030012357_updated-database.cs",
-              "RelativeToolTip": "ShiftLogger\\Migrations\\20251030012357_updated-database.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T01:23:57.861Z"
@@ -278,9 +256,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ShiftLogger.csproj",
-              "DocumentMoniker": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\ShiftLogger.csproj",
+              "DocumentMoniker": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\ShiftLogger.csproj",
               "RelativeDocumentMoniker": "ShiftLogger\\ShiftLogger.csproj",
-              "ToolTip": "D:\\projects\\WEB API APPS\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\ShiftLogger.csproj",
+              "ToolTip": "C:\\ferdi\\Projects\\personal\\ShiftLogger.FreddyPositive\\ShiftLogger.API\\ShiftLogger\\ShiftLogger.csproj",
               "RelativeToolTip": "ShiftLogger\\ShiftLogger.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -1,9 +1,8 @@
-import { ApiService } from "../API/APIService.js";
-
 export class ShiftLoggerComponent {
     constructor(apiService) {
         this.apiService = apiService;
     }
+
     async ShiftIn(employeeId) {
         try {
             const result = await this.apiService.post('shift-in', { employeeId });
@@ -17,12 +16,13 @@ export class ShiftLoggerComponent {
         catch (error) {
             Swal.fire({
                 title: "Error!",
-                text: error.details || "Something went wrong during shift-in.",
+                text: "Something went wrong during shift-in.",
                 icon: "error",
                 confirmButtonText: "Try Again"
             });
         }
     }
+
     async ShiftOut(employeeId) {
         try {
             const result = await this.apiService.post('shift-out', { employeeId });
@@ -36,12 +36,13 @@ export class ShiftLoggerComponent {
         catch (error) {
             Swal.fire({
                 title: "Error!",
-                text: error.details || "Something went wrong during shift-out.",
+                text: "Something went wrong during shift-out.",
                 icon: "error",
                 confirmButtonText: "Try Again"
             });
         }
     }
+
     async GetEmployees() {
         {
             try {
@@ -51,13 +52,14 @@ export class ShiftLoggerComponent {
             catch (error) {
                 Swal.fire({
                     title: "Error!",
-                    text: error.details || "No Employees to Display.",
+                    text: "No employees to display.",
                     icon: "error",
                     confirmButtonText: "Try Again"
                 });
             }
         }
     }
+
     async GetShiftLog() {
         {
             try {
@@ -67,13 +69,14 @@ export class ShiftLoggerComponent {
             catch (error) {
                 Swal.fire({
                     title: "Error!",
-                    text: error.details || "No Shift Log to display.",
+                    text: "No shift log to display.",
                     icon: "error",
                     confirmButtonText: "Try Again"
                 });
             }
         }
     }
+
     async GetEmployeeShiftStatus(employeeId) {
         const result = await this.apiService.getValue('checkshiftstatus', { employeeId });
         return result.data;

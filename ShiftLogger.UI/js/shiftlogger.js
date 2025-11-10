@@ -59,7 +59,7 @@ async function ShiftLogTable() {
     const shiftLoggerHelper = new ShiftLoggerHelper();
     await shiftLoggerHelper.RenderShiftLogTable(shiftLog)
 }
-
+// Modifying the shift status button properties based on the employee shift status
 async function GetEmployeeShiftStatus(empId) {
     const shiftLogger = new ShiftLoggerComponent(apiService);
     var isEmployeeShiftActive = await shiftLogger.GetEmployeeShiftStatus(empId)

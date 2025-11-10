@@ -51,6 +51,7 @@ public class ShiftLoggerService : IShiftLoggerService
             throw new ApplicationException("Error during shift out operation.", ex);
         }
     }
+
     public async Task<List<EmployeeListDto>> EmployeeList()
     {
         try
@@ -88,7 +89,6 @@ public class ShiftLoggerService : IShiftLoggerService
             throw new ApplicationException("Error during obtaining employee list.", ex);
         }
     }
-
     public async Task<bool> CheckShiftStatus(int employeeId)
     {
         bool isShiftActive = false;

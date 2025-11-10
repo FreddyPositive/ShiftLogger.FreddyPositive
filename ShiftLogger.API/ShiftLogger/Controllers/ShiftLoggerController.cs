@@ -46,6 +46,7 @@ public class ShiftLoggerController : ControllerBase
             return StatusCode(500, new { message = "Error during shift out operation.", details = ex.Message });
         }
     }
+
     [HttpGet("employeelist")]
     public async Task<ActionResult> EmployeeList()
     {
@@ -63,6 +64,7 @@ public class ShiftLoggerController : ControllerBase
             return StatusCode(500, new { message = "Error during obtaining employee list.", details = ex.Message });
         }
     }
+
     [HttpGet("shiftlog")]
     public async Task<ActionResult> ShiftLog()
     {
@@ -80,6 +82,7 @@ public class ShiftLoggerController : ControllerBase
             return StatusCode(500, new { message = "Error during obtaining employee list.", details = ex.Message });
         }
     }
+
     [HttpGet("checkshiftstatus")]
     public async Task<IActionResult> CheckShiftStatus(int employeeId)
     {
